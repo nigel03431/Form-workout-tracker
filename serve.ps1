@@ -42,6 +42,7 @@ try {
       ".js" { $context.Response.ContentType = "text/javascript; charset=utf-8" }
       ".json" { $context.Response.ContentType = "application/json; charset=utf-8" }
       ".svg" { $context.Response.ContentType = "image/svg+xml" }
+      ".png" { $context.Response.ContentType = "image/png" }
       default { $context.Response.ContentType = "application/octet-stream" }
     }
 
